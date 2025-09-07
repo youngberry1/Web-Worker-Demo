@@ -24,7 +24,6 @@ start.addEventListener('click', () => {
   }
 })
 
-
 document.getElementById('stopBtn').addEventListener('click', () => {
   if (worker) {
     worker.terminate();
